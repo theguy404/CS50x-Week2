@@ -21,11 +21,11 @@ int main(void)
     
     int answer = (int)(result < 0 ? (result - 0.5) : (result + 0.5));
     
-    if(answer > 16)
+    if (answer > 16)
     {
         printf("Grade 16+\n");
     }
-    else if(answer < 1)
+    else if (answer < 1)
     {
         printf("Before Grade 1\n");
     }
@@ -44,21 +44,21 @@ void count(string a, float b[])
     int leng = strlen(a);
     float letters, words, sent;
     
-    for(int i = 0; i < leng; i++)
+    for (int i = 0; i < leng; i++)
     {
-        if(a[i] >= 'A' && a[i] <= 'Z')
+        if (a[i] >= 'A' && a[i] <= 'Z')
         {
             letters++;
         }
-        else if(a[i] >= 'a' && a[i] <= 'z')
+        else if (a[i] >= 'a' && a[i] <= 'z')
         {
             letters++;
         }
-        else if(a[i] == ' ')
+        else if (a[i] == ' ')
         {
             words++;
         }
-        else if(a[i] == '.' || a[i] == '!' || a[i] == '?')
+        else if (a[i] == '.' || a[i] == '!' || a[i] == '?')
         {
             sent++;
         }
