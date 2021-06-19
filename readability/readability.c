@@ -23,15 +23,15 @@ int main(void)
     
     if(answer > 16)
     {
-        printf("Grade: 16+\n");
+        printf("Grade 16+\n");
     }
     else if(answer < 1)
     {
-        printf("Grade: Before Grade 1\n");
+        printf("Before Grade 1\n");
     }
     else
     {
-        printf("Grade: %i\n", answer);
+        printf("Grade %i\n", answer);
     }
     
 }
